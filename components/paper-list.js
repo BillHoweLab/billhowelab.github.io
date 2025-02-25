@@ -92,6 +92,16 @@ function PaperList() {
 
       <Paper
         title =
+        'Towards Zero-Shot Annotation of the Built Environment with Vision-Language Models'
+        authors = {[BIN_HAN, YIWEI_YANG, ANAT_CASPI, BILL_HOWE]}
+        venue = {SIGSPATIAL_24}
+        date = 'Oct 2024'
+        pdf = 'paper/2024-Lab-Scale-AI.pdf'
+        code = {`https://github.com/BeanHam/2024-vl-annotation`}
+      />
+        
+      <Paper
+        title =
         'Laboratory-Scale AI: Open-Weight Models are Competitive with ChatGPT Even in Low-Resource Settings'
         authors = {[ROBERT_WOLFE, ISAAC_SLAUGHTER, BIN_HAN, BINGBING_WEN, YIWEI_YANG, LUCAS_ROSENBLATT, BERNEASE_HERMAN, EVA_BROWN, ZENING, NIC_WEBER, BILL_HOWE]}
         venue = {FACCT_24}
