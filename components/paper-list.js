@@ -96,8 +96,28 @@ function PaperList() {
         authors = {[BIN_HAN, YIWEI_YANG, ANAT_CASPI, BILL_HOWE]}
         venue = {SIGSPATIAL_24}
         date = 'Oct 2024'
-        pdf = 'paper/2024-Lab-Scale-AI.pdf'
+        pdf = 'paper/vl_annotation_24.pdf'
         code = {`https://github.com/BeanHam/2024-vl-annotation`}
+      />
+
+      <Paper
+        title =
+        'SARN: Structurally-Aware Recurrent Network for Spatio-Temporal Disaggregation'
+        authors = {[BIN_HAN, BILL_HOWE]}
+        venue = {SIGSPATIAL_24}
+        date = 'Oct 2024'
+        pdf = 'paper/disaggregation_24.pdf'
+        code = {`https://github.com/BeanHam/2024-urban-disaggregation`}
+      />
+
+      <Paper
+        title =
+        'Geospatial Imputation of Urban Mobility Data with Self-Supervised Learning'
+        authors = {[BIN_HAN, BILL_HOWE]}
+        venue = {HICSS_24}
+        date = 'Dec 2023'
+        pdf = 'paper/imputation_24.pdf'
+        code = {`https://github.com/BeanHam/2022-urban-inpainting`}
       />
         
       <Paper
@@ -112,6 +132,16 @@ function PaperList() {
 
       <Paper
         title =
+        'Integrative urban AI to expand coverage, access, and equity of urban data'
+        authors = {[BILL_HOWE, EVA_BROWN, BIN_HAN, BERNEASE_HERMAN, NIC_WEBER, AN_YAN, SEAN_YANG, BILL_HOWE]}
+        venue = {EPJS_22}
+        date = 'June 2024'
+        pdf = 'paper/2024-Lab-Scale-AI.pdf'
+        code = {``}
+      />
+        
+      <Paper
+        title =
         'Keeping Multiple Views Consistent: Constraints, Validations, and Exceptions in Visualization Authoring'
         authors = {[ZENING, JESSICA_HULLMAN]}
         venue = {INFOVIS_17}
@@ -122,7 +152,7 @@ function PaperList() {
         video = {`https://vimeo.com/238853591?ref=tw-share`}
         slides = {`https://github.com/ZeningQu/InfoVis17-Consistency-Slides`}
       />
-
+      
       <Paper
         title = 'Voyager 2: Augmenting Visual Analysis with Partial View Specifications'
         authors = {[KANIT, ZENING, DOMINIK, 'Riley Chang', 'Felix Ouk',
