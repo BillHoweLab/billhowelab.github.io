@@ -4,6 +4,9 @@
 const INFOVIS_17 = `IEEE Transactions on Visualization and Computer Graphics (Proc. InfoVis'17)`;
 const CHI_17 = `ACM Human Factors in Computing Systems (CHI'17)`;
 const FACCT_24 = `ACM Conference on Fairness, Accountability, and Transparency (FAccT'24)`;
+const SIGSPATIAL_24 = `ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL'24)`;
+const HICSS_24 = `THE EUROPEAN PHYSICAL JOURNAL SPECIAL TOPICS`;
+const EPJS_22 = `Proceedings of the 57th Hawaii International Conference on System Sciences`;
 
 // define your own author constants
 const ZENING = 'Zening Qu';
@@ -136,7 +139,7 @@ function PaperList() {
         authors = {[BILL_HOWE, EVA_BROWN, BIN_HAN, BERNEASE_HERMAN, NIC_WEBER, AN_YAN, SEAN_YANG, BILL_HOWE]}
         venue = {EPJS_22}
         date = 'June 2024'
-        pdf = 'paper/2024-Lab-Scale-AI.pdf'
+        pdf = 'paper/integrative_urban.pdf'
         code = {``}
       />
         
