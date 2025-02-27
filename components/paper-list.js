@@ -5,8 +5,8 @@ const INFOVIS_17 = `IEEE Transactions on Visualization and Computer Graphics (Pr
 const CHI_17 = `ACM Human Factors in Computing Systems (CHI'17)`;
 const FACCT_24 = `ACM Conference on Fairness, Accountability, and Transparency (FAccT'24)`;
 const SIGSPATIAL_24 = `ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL'24)`;
-const HICSS_24 = `THE EUROPEAN PHYSICAL JOURNAL SPECIAL TOPICS`;
-const EPJS_22 = `Proceedings of the 57th Hawaii International Conference on System Sciences`;
+const HICSS_24 = `Proceedings of the 57th Hawaii International Conference on System Sciences`;
+const EPJS_22 = `THE EUROPEAN PHYSICAL JOURNAL SPECIAL TOPICS`;
 
 // define your own author constants
 const ZENING = 'Zening Qu';
