@@ -12,7 +12,7 @@ and open `http://localhost:8000/` in your browser
 
 
 ## To Add Papers
-1. In `components/paper-list.js`, define venue and author constants, add a new `<Paper/>` under one of the categories (`Conference Papers`, `Workshop Papers` etc.) in reverse chronological order, and fill out the optional properties:
+1. In `components/paper-list.js`, define venue and author constants, add a new `<Paper/>` in reverse chronological order, and fill out the optional properties:
     ```
     const VENUE = `IEEE Conference`;
     const AUTHOR = 'Bill Howe';
