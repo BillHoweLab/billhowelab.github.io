@@ -3,6 +3,7 @@
 // define your own author constants
 const BILL_HOWE = "Bill Howe";
 const NIC = "Nic Weber";
+const ANAT_CASPI = "Anat Caspi";
 const BERNEASE = "Bernease Herman";
 const BINGBING = "Bingbing Wen";
 const BIN = "Bin Han";
@@ -47,7 +48,7 @@ function Person(props) {
 function PeopleList() {
   return (
     <div>
-      <div className="subtitle">People</div>
+      <div className="subtitle">Faculty</div>
 
       <div className="people-list">
         <Person
@@ -66,6 +67,18 @@ function PeopleList() {
           website="https://nicweber.info/"
         />
 
+        <Person
+          name={ANAT_CASPI}
+          image="images/anat.png"
+          // twitter="https://twitter.com/nniiicc"
+          // github="https://github.com/nniiicc"
+          website="https://www.ece.uw.edu/people/anat-caspi/"
+        />
+      </div>
+
+      <div className="subtitle">PhD Students</div>
+
+      <div className="people-list">
         <Person
           name={BERNEASE}
           image="images/bernease.png"
@@ -136,7 +149,11 @@ function PeopleList() {
           github="https://github.com/light-and-salt"
           website="https://light-and-salt.github.io/"
         />
+      </div>
 
+      <div className="subtitle">Master Students</div>
+
+      <div className="people-list">
         <Person
           name={LETIAN}
           image="images/LetianShi.jpg"
@@ -152,7 +169,8 @@ function PeopleList() {
           github="https://github.com/sophietao127"
           website="https://www.sophietao.net/"
         />
-		<Person
+
+		    <Person
           name = {WEIFAN}
           image = 'images/weifan-wu.webp'
           twitter = 'N/A'
