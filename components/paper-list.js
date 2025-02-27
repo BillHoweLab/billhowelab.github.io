@@ -100,9 +100,7 @@ function Paper(props) {
 function PaperList() {
   return (
     <div>
-
-      <div className="subtitle">Conference Papers</div>
-
+      <div className="subtitle">Papers</div>
       <Paper
         title =
         'Towards Zero-Shot Annotation of the Built Environment with Vision-Language Models'
@@ -154,6 +152,15 @@ function PaperList() {
       />
 
       <Paper
+        title = 'Aunt Lily Can Say Her Visualizations: Directing Analysis, Design, and Storytelling in Natural Language (A Vision)'
+        authors = {[ZENING, FANDU, RYAN_ROSSI, BILL_HOWE]}
+        venue = {`Exploring Opportunities and Challenges for Natural Language Techniques to Support Visual Analysis Tasks
+          (NLVIZ Workshop), IEEE VIS`}
+        date = 'Oct 2021'
+        video = {`https://youtu.be/wVWrN8Y7HS0`}
+      />
+
+      <Paper
         thumbnail = 'images/thumbnails/keeping-multiple-views-consistent.png'
         title =
         'Keeping Multiple Views Consistent: Constraints, Validations, and Exceptions in Visualization Authoring'
@@ -200,28 +207,6 @@ function PaperList() {
       />
 
       <Paper
-        title = 'Linear Time-Invariant System Based Assessment Model for Coronary Heart Disease'
-        authors = {[ZENING, 'Yongqiang Lyu', 'Yida Tang', 'Wenyao Wang',
-          'Zihan Wang', 'Jiaming Hong', 'Nazim Agoulmine']}
-        venue = {`IEEE 15th International Conference on e-Health Networking, Applications \& Services (HealthCom'13)`}
-        date = '2013'
-        pdf = 'paper/2013-CHD-HealthCom.pdf'
-      />
-
-      <div className="subtitle">Journal Articles</div>
-
-      <div className="subtitle">Workshop Papers</div>
-
-      <Paper
-        title = 'Aunt Lily Can Say Her Visualizations: Directing Analysis, Design, and Storytelling in Natural Language (A Vision)'
-        authors = {[ZENING, FANDU, RYAN_ROSSI, BILL_HOWE]}
-        venue = {`Exploring Opportunities and Challenges for Natural Language Techniques to Support Visual Analysis Tasks
-          (NLVIZ Workshop), IEEE VIS`}
-        date = 'Oct 2021'
-        video = {`https://youtu.be/wVWrN8Y7HS0`}
-      />
-
-      <Paper
         title = 'Evaluating Visualization Sets: Trade-offs Between Local Effectiveness and Global Consistency'
         authors = {[ZENING, JESSICA_HULLMAN]}
         venue = {`Proceedings of the Sixth Workshop on Beyond Time and Errors on Novel Evaluation
@@ -232,8 +217,6 @@ function PaperList() {
         slides = {`https://github.com/ZeningQu/BELIV16-Slides`}
       />
 
-      <div className="subtitle">Demo</div>
-
       <Paper
         title = 'Matryoshka: Design of NDN Multiplayer Online Game'
         authors = {['Zhehao Wang', ZENING, JEFF_BURKE]}
@@ -242,7 +225,15 @@ function PaperList() {
         pdf = 'paper/2014-Matryoshka-ICN.pdf'
       />
 
-      <div className="subtitle">Tech Report</div>
+      <Paper
+        title = 'Linear Time-Invariant System Based Assessment Model for Coronary Heart Disease'
+        authors = {[ZENING, 'Yongqiang Lyu', 'Yida Tang', 'Wenyao Wang',
+          'Zihan Wang', 'Jiaming Hong', 'Nazim Agoulmine']}
+        venue = {`IEEE 15th International Conference on e-Health Networking, Applications \& Services (HealthCom'13)`}
+        date = '2013'
+        pdf = 'paper/2013-CHD-HealthCom.pdf'
+      />
+
       <Paper
         title = 'Egal Car: A Peer-to-Peer Car Racing Game Synchronized Over Named Data Networking'
         authors = {[ZENING, JEFF_BURKE]}
@@ -250,9 +241,6 @@ function PaperList() {
         date = '2012'
         pdf = 'paper/2012-EgalCar-TR.pdf'
       />
-
-      <div className="subtitle">arXiv</div>
-
     </div>
 
   );
