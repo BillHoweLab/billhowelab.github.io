@@ -53,7 +53,7 @@ function PeopleList() {
       <div className="people-list">
         <Person
           name={BILL_HOWE}
-          image="images/billhowe.png"
+          image="images/bill.png"
           twitter="https://twitter.com/billghowe"
           github="https://github.com/billhowe"
           website="https://faculty.washington.edu/billhowe/"
