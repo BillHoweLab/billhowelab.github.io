@@ -151,7 +151,7 @@ function PeopleList() {
         />
       </div>
 
-      <div className="subtitle">Master Students</div>
+      <div className="subtitle">Masters Students</div>
 
       <div className="people-list">
         <Person
