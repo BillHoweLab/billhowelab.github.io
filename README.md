@@ -18,6 +18,7 @@ and open `http://localhost:8000/` in your browser
     const AUTHOR = 'Bill Howe';
 
     <Paper
+        thumbnail = 'images/thumbnails/[your_120_by_62_pixel_thunbnail].png'
         title = ''
         authors = {[AUTHOR]}
         venue = {VENUE}
@@ -29,8 +30,8 @@ and open `http://localhost:8000/` in your browser
         slides = {``}
     />
     ```
-2. Add the paper PDF to `/paper` the folder
-
+2. Add the paper PDF to the `/paper` folder
+3. Add your 120 * 62 pixels thumbnail image to the `/images/thumbnails/` folder
 
 
 ## To Add News
