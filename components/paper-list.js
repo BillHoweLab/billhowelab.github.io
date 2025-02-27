@@ -54,38 +54,45 @@ function Paper(props) {
   const authorCount = props.authors.length;
   return (
     <div className="paper">
-      <div className="paper-title">{props.title}.</div>
-
-      <div>{props.authors.map((author, index) => {
-        return (
-          <span key = {index} className={author === ZENING ? "me" : ""}>
-            {author}
-            {(index + 1) === authorCount ? '.' : ', '}
-          </span>
-        );
-      })}</div>
-
-      <div><i>{props.venue + `, `}</i>{props.date}.</div>
-
-      <div>{props.acceptanceRate && `[${props.acceptanceRate}% Acceptance Rate]`}</div>
-
-      {props.awardType === HONORABLE_MENTION &&
-        <div className="honorable-mention">
-          <i className="fas fa-award"></i>
-          <span>{' Best Paper Honorable Mention'}</span>
-        </div>
-      }
-
-      <div className="links">
-        {props.pdf && <a href={props.pdf}>PDF</a>}
-
-        {props.video && <span>{`  `}<a href={props.video}>VIDEO</a></span>}
-
-        {props.slides && <span> {`  `} <a href={props.slides}>SLIDES</a> </span>}
-
-        {props.code && <span> {`  `} <a href={props.code}>CODE</a> </span>}
+      <div className="paper-thumbnail">
+        <a>
+          <img src={props.thumbnail} />
+        </a>
       </div>
 
+      <div className="paper-entry">
+        <div className="paper-title">{props.title}.</div>
+
+        <div>{props.authors.map((author, index) => {
+          return (
+            <span key = {index} className={author === ZENING ? "me" : ""}>
+              {author}
+              {(index + 1) === authorCount ? '.' : ', '}
+            </span>
+          );
+        })}</div>
+
+        <div><i>{props.venue + `, `}</i>{props.date}.</div>
+
+        <div>{props.acceptanceRate && `[${props.acceptanceRate}% Acceptance Rate]`}</div>
+
+        {props.awardType === HONORABLE_MENTION &&
+          <div className="honorable-mention">
+            <i className="fas fa-award"></i>
+            <span>{' Best Paper Honorable Mention'}</span>
+          </div>
+        }
+
+        <div className="links">
+          {props.pdf && <a href={props.pdf}>PDF</a>}
+
+          {props.video && <span>{`  `}<a href={props.video}>VIDEO</a></span>}
+
+          {props.slides && <span> {`  `} <a href={props.slides}>SLIDES</a> </span>}
+
+          {props.code && <span> {`  `} <a href={props.code}>CODE</a> </span>}
+        </div>
+      </div>
     </div>
   );
 }
@@ -147,6 +154,7 @@ function PaperList() {
       />
 
       <Paper
+        thumbnail = 'images/thumbnails/keeping-multiple-views-consistent.png'
         title =
         'Keeping Multiple Views Consistent: Constraints, Validations, and Exceptions in Visualization Authoring'
         authors = {[ZENING, JESSICA_HULLMAN]}
@@ -160,6 +168,7 @@ function PaperList() {
       />
 
       <Paper
+        thumbnail = 'images/thumbnails/voyager2.png'
         title = 'Voyager 2: Augmenting Visual Analysis with Partial View Specifications'
         authors = {[KANIT, ZENING, DOMINIK, 'Riley Chang', 'Felix Ouk',
           'Anushka Anand', 'Jock Mackinlay', BILL_HOWE, JEFFREY_HEER]}
