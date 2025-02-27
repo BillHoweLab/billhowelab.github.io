@@ -56,11 +56,11 @@ function Paper(props) {
     <div className="paper">
       <div className="paper-thumbnail">
         <a>
-          <img src={props.thumbnail} />
+          <img src={props.thumbnail}/>
         </a>
       </div>
 
-      <div className="paper-entry">
+      <div>
         <div className="paper-title">{props.title}.</div>
 
         <div>{props.authors.map((author, index) => {

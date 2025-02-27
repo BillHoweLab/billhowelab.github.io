@@ -133,18 +133,13 @@ https://css-tricks.com/4-ways-to-animate-the-color-of-a-text-link-on-hover/
 .paper {
   margin-top: 10px;
   margin-bottom: 33px;
+  display: grid;
+  grid-template-columns: 120px auto;
+  grid-gap: 20px;
 }
 
 .paper-thumbnail {
-  width: 120px;
-  height: 62px;
-  display: inline-block;
-  vertical-align: top;
-  margin: 5px 20px auto 0;
-}
-
-.paper-entry {
-  display: inline-block;
+  margin-top: 3px;
 }
 
 .paper-title {
