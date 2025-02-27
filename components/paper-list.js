@@ -118,16 +118,6 @@ function PaperList() {
 
       <Paper
         title =
-        'Geospatial Imputation of Urban Mobility Data with Self-Supervised Learning'
-        authors = {[BIN_HAN, BILL_HOWE]}
-        venue = {HICSS_24}
-        date = 'Dec 2023'
-        pdf = 'paper/imputation_24.pdf'
-        code = {`https://github.com/BeanHam/2022-urban-inpainting`}
-      />
-
-      <Paper
-        title =
         'Laboratory-Scale AI: Open-Weight Models are Competitive with ChatGPT Even in Low-Resource Settings'
         authors = {[ROBERT_WOLFE, ISAAC_SLAUGHTER, BIN_HAN, BINGBING_WEN, YIWEI_YANG, LUCAS_ROSENBLATT, BERNEASE_HERMAN, EVA_BROWN, ZENING, NIC_WEBER, BILL_HOWE]}
         venue = {FACCT_24}
@@ -144,6 +134,16 @@ function PaperList() {
         date = 'June 2024'
         pdf = 'paper/integrative_urban.pdf'
         code = {``}
+      />
+
+      <Paper
+        title =
+        'Geospatial Imputation of Urban Mobility Data with Self-Supervised Learning'
+        authors = {[BIN_HAN, BILL_HOWE]}
+        venue = {HICSS_24}
+        date = 'Dec 2023'
+        pdf = 'paper/imputation_24.pdf'
+        code = {`https://github.com/BeanHam/2022-urban-inpainting`}
       />
 
       <Paper
