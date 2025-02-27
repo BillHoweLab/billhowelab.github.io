@@ -39,6 +39,9 @@ const LUCAS_ROSENBLATT = 'Lucas Rosenblatt';
 const BERNEASE_HERMAN = 'Bernease Herman';
 const EVA_BROWN = 'Eva Brown';
 const NIC_WEBER = 'Nic Weber';
+const ANAT_CASPI = 'Anat Caspi';
+const AN_YAN = 'An Yan';
+const SEAN_YANG = 'Sean Yang';
 
 
 // define your own award constants
@@ -90,7 +93,7 @@ function Paper(props) {
 function PaperList() {
   return (
     <div>
-      
+
       <div className="subtitle">Conference Papers</div>
 
       <Paper
@@ -122,7 +125,7 @@ function PaperList() {
         pdf = 'paper/imputation_24.pdf'
         code = {`https://github.com/BeanHam/2022-urban-inpainting`}
       />
-        
+
       <Paper
         title =
         'Laboratory-Scale AI: Open-Weight Models are Competitive with ChatGPT Even in Low-Resource Settings'
@@ -142,7 +145,7 @@ function PaperList() {
         pdf = 'paper/integrative_urban.pdf'
         code = {``}
       />
-        
+
       <Paper
         title =
         'Keeping Multiple Views Consistent: Constraints, Validations, and Exceptions in Visualization Authoring'
@@ -155,7 +158,7 @@ function PaperList() {
         video = {`https://vimeo.com/238853591?ref=tw-share`}
         slides = {`https://github.com/ZeningQu/InfoVis17-Consistency-Slides`}
       />
-      
+
       <Paper
         title = 'Voyager 2: Augmenting Visual Analysis with Partial View Specifications'
         authors = {[KANIT, ZENING, DOMINIK, 'Riley Chang', 'Felix Ouk',
